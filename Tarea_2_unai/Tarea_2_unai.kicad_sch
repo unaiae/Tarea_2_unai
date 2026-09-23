@@ -1,0 +1,206 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2324ac65-aae7-4e51-a8e4-9d93764ceb90")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 83.82 53.34) (xy 132.08 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e14ef9d-a611-4f73-8351-10aabc4013a0")
+	)
+	(wire
+		(pts
+			(xy 132.08 163.83) (xy 102.87 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3056b4b9-70bd-49a8-bbb5-67c0e3db9777")
+	)
+	(wire
+		(pts
+			(xy 127 146.05) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a25d93f-72df-41c3-b1e7-a5e9c7624be4")
+	)
+	(wire
+		(pts
+			(xy 127 63.5) (xy 83.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662330f1-de87-420f-b63e-5aba5c3aacd6")
+	)
+	(wire
+		(pts
+			(xy 132.08 53.34) (xy 132.08 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28ac422-e19b-43ef-afeb-6036eea4bf73")
+	)
+	(wire
+		(pts
+			(xy 102.87 146.05) (xy 127 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcb94be-0b44-4ad8-b29c-389128c36ec1")
+	)
+	(sheet
+		(at 30.48 34.29)
+		(size 53.34 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4db549dd-4991-44c2-b6cf-1bb82ef5f647")
+		(property "Sheetname" "Alimentacion"
+			(at 30.48 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentacion.kicad_sch"
+			(at 30.48 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND_REF" output
+			(at 83.82 63.5 0)
+			(uuid "d4f605e4-9426-4f55-8070-2ac9134b92cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_3V3" output
+			(at 83.82 53.34 0)
+			(uuid "567b2460-9aeb-4d1b-a346-29e7f2961170")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Tarea_2_unai"
+				(path "/2324ac65-aae7-4e51-a8e4-9d93764ceb90"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 139.7)
+		(size 62.23 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5cbed766-6105-4833-8b7f-4c3640c40f4a")
+		(property "Sheetname" "Microcontrolador"
+			(at 40.64 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontrolador.kicad_sch"
+			(at 40.64 184.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND_REF" input
+			(at 102.87 146.05 0)
+			(uuid "21ba8081-9372-4306-9656-3007131c54a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_3V3" input
+			(at 102.87 163.83 0)
+			(uuid "183af597-4fd0-4dda-8fbb-8f0b09259cbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Tarea_2_unai"
+				(path "/2324ac65-aae7-4e51-a8e4-9d93764ceb90"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
