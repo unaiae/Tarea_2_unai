@@ -103,7 +103,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GND_REF" output
+		(pin "GND_REF" input
 			(at 83.82 63.5 0)
 			(uuid "d4f605e4-9426-4f55-8070-2ac9134b92cc")
 			(effects
@@ -113,7 +113,7 @@
 				(justify right)
 			)
 		)
-		(pin "VOUT_3V3" output
+		(pin "VOUT_3V3" input
 			(at 83.82 53.34 0)
 			(uuid "567b2460-9aeb-4d1b-a346-29e7f2961170")
 			(effects
