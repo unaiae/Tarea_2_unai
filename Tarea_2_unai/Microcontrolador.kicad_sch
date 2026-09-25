@@ -2960,7 +2960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b1db5b4b-c6f3-458a-955f-3468f8f2db2e")
+		(uuid "c6a7c683-9b1e-49c4-9a27-454ce5b469cf")
 		(property "Reference" "J2"
 			(at 60.325 62.23 0)
 			(show_name no)
@@ -3015,10 +3015,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "78118a13-3b02-4836-b341-e24683037a31")
+			(uuid "7801b5a4-779f-448f-9456-2a7894709861")
 		)
 		(pin "1"
-			(uuid "cf5f6436-fe66-45ea-960d-75fb272e8af3")
+			(uuid "54ef502b-8999-4bd8-984c-4eac8c770256")
 		)
 		(instances
 			(project "Tarea_2_unai"
