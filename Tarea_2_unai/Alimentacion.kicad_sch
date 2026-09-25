@@ -5,6 +5,244 @@
 	(uuid "1aa37af6-90f0-42d8-809d-6cf8c49dd702")
 	(paper "A4")
 	(lib_symbols
+		(symbol "0201ZK100GBSTR:0201ZK100GBSTR"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0201ZK100GBSTR"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC0603X28N"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/0201ZK100GBSTR.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Silicon RF Capacitors / Thin Film 10V 10pF 2%Tol ThinFilm 0201"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.275"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Kyocera AVX"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0201ZK100GBSTR"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "581-0201ZK100GBSTR"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0201ZK100GBSTR"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "0201ZK100GBSTR"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0201zk100gbstr/avx"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "0201ZK100GBSTR_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -186,161 +424,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -496,84 +579,54 @@
 		)
 	)
 	(junction
-		(at 99.06 82.55)
+		(at 100.33 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07daba4c-200f-4286-8e73-bd8897fbcf0c")
+		(uuid "18b24dd2-e824-4bb9-a9fe-b8a5c39fb5b2")
+	)
+	(junction
+		(at 127 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7787f492-f1fc-4b7f-9d05-98b0e07acde7")
+	)
+	(junction
+		(at 100.33 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ee853e-9cba-4aeb-910e-869a373e0c72")
 	)
 	(junction
 		(at 151.13 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09d03470-5bb9-4bf2-919d-19c2ad79fec7")
+		(uuid "bc5cdef5-79ac-4634-9b9a-732c3b689142")
 	)
 	(junction
-		(at 127 82.55)
+		(at 151.13 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b706561-cc5f-414d-9948-6cd4259d34c7")
-	)
-	(junction
-		(at 99.06 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ee1d75c-6db1-4164-ba54-b7e6212e05ed")
-	)
-	(junction
-		(at 151.13 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adff690e-6e71-4126-b866-dcda41e43b3b")
+		(uuid "f543b808-10e5-454f-b194-6be7d4196533")
 	)
 	(wire
 		(pts
-			(xy 151.13 82.55) (xy 161.29 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "081a5ddf-d864-44e6-b0c8-3056dd490278")
-	)
-	(wire
-		(pts
-			(xy 99.06 71.12) (xy 99.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12c3367b-1ef6-47bc-ba47-c10e4932ebc2")
-	)
-	(wire
-		(pts
-			(xy 92.71 71.12) (xy 99.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1678c1b6-1d42-4e52-86ea-8de0db766a2c")
-	)
-	(wire
-		(pts
-			(xy 151.13 82.55) (xy 151.13 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c848cd1-d998-4635-bc78-3d0978d60a12")
-	)
-	(wire
-		(pts
-			(xy 99.06 71.12) (xy 119.38 71.12)
+			(xy 92.71 71.12) (xy 100.33 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "287d324e-5b05-4d3c-a5b0-49aff6529849")
+	)
+	(wire
+		(pts
+			(xy 127 83.82) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29fec73b-e6f0-498f-a5ea-b181343b18be")
 	)
 	(wire
 		(pts
@@ -587,27 +640,27 @@
 	)
 	(wire
 		(pts
-			(xy 127 82.55) (xy 151.13 82.55)
+			(xy 100.33 83.82) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63117325-be25-4dfe-a0c9-7243cb05943f")
+		(uuid "3aa75c23-600b-497d-96e5-15050f49ae53")
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 99.06 81.28)
+			(xy 151.13 83.82) (xy 161.29 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6504942b-544a-40e5-a69d-a5aac3093586")
+		(uuid "5cee3953-b3b3-4f8d-a9f6-cdfb44a0c7a9")
 	)
 	(wire
 		(pts
-			(xy 92.71 78.74) (xy 92.71 82.55)
+			(xy 92.71 78.74) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -617,13 +670,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 71.12) (xy 160.02 71.12)
+			(xy 134.62 71.12) (xy 151.13 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e4f7be1-2b71-41df-87b6-ef0870696796")
+	)
+	(wire
+		(pts
+			(xy 100.33 71.12) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72768f45-1e6c-44b8-9271-ced3b0c6b35d")
 	)
 	(wire
 		(pts
@@ -637,27 +700,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 82.55) (xy 161.29 88.9)
+			(xy 161.29 83.82) (xy 161.29 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ce9eb0f-f2c8-4ae6-822b-16e2faee1bd5")
+		(uuid "8d3b6495-64d1-4b29-a218-39e165199a46")
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 127 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac8941fc-b466-4400-84f4-a9c6edb48c5c")
-	)
-	(wire
-		(pts
-			(xy 127 78.74) (xy 127 82.55)
+			(xy 127 78.74) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -667,33 +720,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 71.12) (xy 151.13 71.12)
+			(xy 151.13 71.12) (xy 160.02 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b14e7aae-650d-4ab1-97ef-4b73473335af")
-	)
-	(wire
-		(pts
-			(xy 92.71 82.55) (xy 99.06 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd9838e5-1dc9-474b-9b06-2707f4b00fd4")
-	)
-	(wire
-		(pts
-			(xy 151.13 71.12) (xy 151.13 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0cd07c8-87fa-430b-a2aa-c4921780b883")
+		(uuid "dc88d660-47ef-4050-a1a5-19d8e2a31c4e")
 	)
 	(wire
 		(pts
@@ -714,6 +747,16 @@
 			(type default)
 		)
 		(uuid "ebcb12fa-b842-4e7b-a2e2-ec323ea61554")
+	)
+	(wire
+		(pts
+			(xy 100.33 83.82) (xy 92.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f326f388-0cd4-486a-8122-784b0c803f20")
 	)
 	(hierarchical_label "VOUT_3V3"
 		(shape input)
@@ -738,8 +781,8 @@
 		(uuid "82617fdf-9528-469a-97ed-c1e0ccfa30c7")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 151.13 76.2 0)
+		(lib_id "0201ZK100GBSTR:0201ZK100GBSTR")
+		(at 151.13 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -748,9 +791,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13b9f4ad-b614-437d-9792-f5fdbb6aa816")
-		(property "Reference" "C3"
-			(at 154.94 74.9299 0)
+		(uuid "693afcfb-c794-433b-b0e9-2ca75b34a6d1")
+		(property "Reference" "C4"
+			(at 154.94 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -760,8 +803,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 154.94 77.4699 0)
+		(property "Value" "0201ZK100GBSTR"
+			(at 154.94 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -771,8 +814,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0201ZK100GBSTR"
-			(at 152.0952 80.01 0)
+		(property "Footprint" "CAPC0603X28N"
+			(at 54.94 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/0201ZK100GBSTR.pdf"
+			(at -45.06 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Silicon RF Capacitors / Thin Film 10V 10pF 2%Tol ThinFilm 0201"
+			(at 151.13 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -782,8 +849,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 151.13 76.2 0)
+		(property "Height" "0.275"
+			(at -245.06 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -791,10 +858,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 151.13 76.2 0)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -345.06 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -802,18 +870,79 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0201ZK100GBSTR"
+			(at -445.06 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "581-0201ZK100GBSTR"
+			(at -545.06 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0201ZK100GBSTR"
+			(at -645.06 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "0201ZK100GBSTR"
+			(at -745.06 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0201zk100gbstr/avx"
+			(at -845.06 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
-			(uuid "0dcd7435-1338-4431-aeb9-51e9bfdb993a")
+			(uuid "99c1b8e9-d36d-4c8c-a463-6d97e5ee290f")
 		)
 		(pin "2"
-			(uuid "6e4844e4-0ef5-42da-a2c9-7afcb928b2a0")
+			(uuid "fac6c337-dfd3-4c91-826d-1adb3d61a7c4")
 		)
 		(instances
 			(project "Tarea_2_unai"
 				(path "/2324ac65-aae7-4e51-a8e4-9d93764ceb90/4db549dd-4991-44c2-b6cf-1bb82ef5f647"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -900,8 +1029,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 99.06 77.47 0)
+		(lib_id "0201ZK100GBSTR:0201ZK100GBSTR")
+		(at 100.33 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -910,9 +1039,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9d3c3675-485a-42bf-a4f6-91eabeb3a837")
-		(property "Reference" "C4"
-			(at 102.87 76.1999 0)
+		(uuid "f370b62e-b403-473b-b2d0-4bf572f97cc8")
+		(property "Reference" "C3"
+			(at 104.14 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -922,8 +1051,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 102.87 78.7399 0)
+		(property "Value" "0201ZK100GBSTR"
+			(at 104.14 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -933,8 +1062,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0201ZK100GBSTR"
-			(at 100.0252 81.28 0)
+		(property "Footprint" "CAPC0603X28N"
+			(at 4.14 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/0201ZK100GBSTR.pdf"
+			(at -95.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Silicon RF Capacitors / Thin Film 10V 10pF 2%Tol ThinFilm 0201"
+			(at 100.33 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -944,8 +1097,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 99.06 77.47 0)
+		(property "Height" "0.275"
+			(at -295.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -953,10 +1106,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 77.47 0)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -395.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -964,18 +1118,79 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0201ZK100GBSTR"
+			(at -495.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "581-0201ZK100GBSTR"
+			(at -595.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0201ZK100GBSTR"
+			(at -695.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "0201ZK100GBSTR"
+			(at -795.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0201zk100gbstr/avx"
+			(at -895.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
-			(uuid "968c6cfe-418d-4138-8a80-3bcb6ce6332e")
+			(uuid "3cfdd731-adbf-42a9-bdbf-c90f8d46cf8a")
 		)
 		(pin "2"
-			(uuid "a6bc7a5d-6ebd-49c8-97b3-05acd15947a5")
+			(uuid "34506a5e-eaf9-4c76-a89c-e9190590986d")
 		)
 		(instances
 			(project "Tarea_2_unai"
 				(path "/2324ac65-aae7-4e51-a8e4-9d93764ceb90/4db549dd-4991-44c2-b6cf-1bb82ef5f647"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
